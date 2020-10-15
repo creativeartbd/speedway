@@ -1005,6 +1005,8 @@ textarea {
 	margin-right : 14px;
 }
 
+
+
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
 	display: none;
@@ -1187,3 +1189,14 @@ article .entry-content p {
     margin: 187px 0 0 0; 
 }
 /* Aritcle end here */
+
+.promo {
+	background-image: url("https://spa0001.alanvo.com/wp-content/uploads/2020/10/sylvia-zhou-uHMtAkVUIjo-unsplash-1.png");
+	background-size: cover;
+}
+.promo h1 {
+	text-align: center;
+	font-size: 36px;
+	line-height: 50px;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);	
+}

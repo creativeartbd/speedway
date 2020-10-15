@@ -72,6 +72,18 @@ get_header();
 		<!-- col-md-12 end here -->
 	</div>
 	<!-- row end here -->
+</div>
+<!-- Container end here -->
+
+<div class="container-fluid promo">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Looking for High-Quality Fuel?</h1>
+			</div>
+		</div>
+	</div>
+</div>
 <?php
 
 get_footer();

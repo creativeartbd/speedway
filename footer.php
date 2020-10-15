@@ -11,8 +11,6 @@
 
 ?>
 
-</div>
-<!-- Container end here -->
 
 <!-- Footer -->
 <div class="container-fluid footer">
