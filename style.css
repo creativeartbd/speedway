@@ -1188,6 +1188,20 @@ article .entry-content p {
     padding: 15px;
     margin: 187px 0 0 0; 
 }
+
+.container-fluid.single-blog-page {
+	background-image: url(https://spa0001.alanvo.com/wp-content/uploads/2020/10/brian-mcmahon-hd-l_8As3Bo-unsplash.png);
+    background-size: cover;
+}
+.container-fluid.single-blog-page .title {
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    padding: 15px;
+    margin: 187px 0 0 0; 
+}
 /* Aritcle end here */
 
 .promo {
