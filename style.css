@@ -1131,7 +1131,6 @@ textarea {
 	margin-top: 71px;
 }
 article {
-	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 	padding : 15px 25px 25px;
 	min-height: 570px;;
 }
@@ -1199,7 +1198,7 @@ article .entry-content p {
     text-transform: uppercase;
     color: #000;
     background-color: #fff;
-    padding: 15px;
+    padding: 30px;
     margin: 187px 0 0 0; 
 }
 /* Aritcle end here */
