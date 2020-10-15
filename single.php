@@ -11,7 +11,7 @@ get_header();
 ?>
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-9">
 			<main id="primary" class="site-main">
 
 			<?php
@@ -28,17 +28,20 @@ get_header();
 				);
 
 				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
+				// if ( comments_open() || get_comments_number() ) :
+				// 	comments_template();
+				// endif;
 
 			endwhile; // End of the loop.
 			?>
 			</main><!-- #main -->
 		</div>
+		<div class="col-md-3">
+			<?php get_sidebar(); ?>
+		</div>
 	</div>
 </div>
 
 <?php
-get_sidebar();
+
 get_footer();
