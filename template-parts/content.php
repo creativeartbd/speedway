@@ -9,23 +9,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	
-	<div class="post-category-date-wrapper">
-		<div class="post-category">
-			<?php 
-			$speed_post_category = get_the_category(); 			
-			foreach( $speed_post_category  as $category ) {
-				$category_link = get_category_link( $category->term_id );
-				$category_name = $category->name;
-				echo "<a href='{$category_link}'>{$category_name}</a>";
-			}			
-			?>
-		</div>
-		<div class="post-date">
-			<?php echo get_the_date(); ?>
-		</div>
-	</div>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
 
 	<?php speedway_post_thumbnail(); ?>
 

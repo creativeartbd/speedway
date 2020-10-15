@@ -1130,11 +1130,14 @@ textarea {
 .speedway-blog {
 	margin-top: 71px;
 }
+.sppedway-article {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 article {
 	padding : 15px 25px 25px;
 	min-height: 570px;;
 }
-
 article img {
 	width: 100%;
 	max-width: 100%;
