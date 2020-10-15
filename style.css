@@ -991,7 +991,8 @@ textarea {
 
 .footer ul li a, p {
 	font-size : 14px; 
-	line-height: 16.41px;;
+	line-height: 16.41px;
+	color : #000;
 }
 
 .infinite-scroll .posts-navigation,
