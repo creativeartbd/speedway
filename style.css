@@ -1171,4 +1171,12 @@ article .entry-content p {
 	line-height: 30px;
 }
 
+.container-fluid.blog-page {
+    background-image: url(https://spa0001.alanvo.com/wp-content/uploads/2020/10/busy-traffic-PTWQRX4.png);
+    background-size: cover;
+}
+.container-fluid.blog-page .title {
+	font-size: 36px;
+	line-height: 42px;
+}
 /* Aritcle end here */
