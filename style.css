@@ -989,6 +989,9 @@ textarea {
 	margin-bottom: 31px;
 }
 
+.footer ul li {
+    margin-bottom: 10px;
+}
 .footer ul li a, p {
 	font-size : 14px; 
 	line-height: 16.41px;
@@ -1018,7 +1021,8 @@ textarea {
     border: 0 !important;
     box-shadow: none;
     background-color: transparent;
-    border-bottom: 1px solid #000 !important;
+	border-bottom: 1px solid #000 !important;
+	border-radius: 0 !important;
 }
 
 /* Accessibility
