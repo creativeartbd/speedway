@@ -18,7 +18,7 @@
 <div class="container-fluid footer">
 	<div class="container">
 		<div class="row ">
-			<div class="col-md-4">
+			<div class="col-xs-12 col-sm-4 col-md-4">
 				<?php 
 				// Footer left sidebar
 				if( is_active_sidebar( 'footer-left-sidebar' ) ) {
@@ -26,7 +26,7 @@
 				}
 				?>
 			</div>
-			<div class="col-md-4">
+			<div class="col-xs-12 col-sm-4 col-md-4">
 				<?php 
 				// Footer middle sidebar
 				if( is_active_sidebar( 'footer-middle-sidebar' ) ) {
@@ -34,7 +34,7 @@
 				}
 				?>
 			</div>
-			<div class="col-md-4">
+			<div class="col-sm-12 col-md-4">
 				<?php 
 				// Footer right sidebar
 				if( is_active_sidebar( 'footer-right-sidebar' ) ) {
