@@ -13,10 +13,9 @@ get_header();
 <div class="container-fluid single-blog-page">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-9">
 				<div class="title-wrapper">
-					<h1><?php echo get_the_title(); ?></h1>
-					<p>Published <?php echo get_the_date(); ?></p>
+					<h1><?php echo get_the_title(); ?></h1>					
 				</div>
 			</div>
 		</div>
@@ -26,6 +25,9 @@ get_header();
 <div class="container">
 	<div class="row">
 		<div class="col-md-9">
+			<div class="article-pub-date">
+				<p>Published <?php echo get_the_date(); ?></p>
+			</div>
 			<main id="primary" class="site-main">
 
 			<?php

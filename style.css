@@ -664,6 +664,27 @@ textarea {
 # Components
 --------------------------------------------------------------*/
 
+/* Sidebar */
+
+.sidebar li a {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 70px;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;    
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	margin-top: 15px;
+	text-align: center;
+}
+.sidebar li a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+/* Sidebar end here */
+
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
@@ -1197,7 +1218,7 @@ article .entry-content p {
 }
 .container-fluid.single-blog-page .title-wrapper {    
     background-color: #fff;
-    padding: 30px;
+    padding: 1px 30px;
     margin: 187px 0 0 0; 
 }
 .container-fluid.single-blog-page .title-wrapper h1 {
@@ -1206,11 +1227,14 @@ article .entry-content p {
     text-transform: uppercase;
     color: #000;
 }
-.container-fluid.single-blog-page .title-wrapper p {
+.article-pub-date p {
 	font-size: 18px;
 	line-height: 30px;
     text-transform: uppercase;
     color: #000;
+}
+.article-pub-date {
+    padding: 0 25px;
 }
 /* Aritcle end here */
 
