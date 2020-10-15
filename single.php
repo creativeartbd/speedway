@@ -14,8 +14,10 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1 class="title"><?php echo get_the_title(); ?></h1>
-				<p>Published <?php echo get_the_date(); ?></p>
+				<div class="title-wrapper">
+					<h1><?php echo get_the_title(); ?></h1>
+					<p>Published <?php echo get_the_date(); ?></p>
+				</div>
 			</div>
 		</div>
 	</div>
