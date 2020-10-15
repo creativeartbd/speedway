@@ -1275,3 +1275,20 @@ article .entry-content p {
 .navigation.post-navigation {
 	padding : 25px;
 }
+
+.latest-post img {
+	width : 100%;
+}
+.latest-post h1 a {
+	font-size: 24px;
+	line-height: 28px;
+	color : #000;
+}
+.latest-post p {
+	font-size: 16px;
+	line-height: 24px;
+	color : #000;
+}
+.latest-post img:nth-child(2) {
+	box-shadow: 2px 2px 2px #000;
+}

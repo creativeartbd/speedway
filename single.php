@@ -36,12 +36,12 @@ get_header();
 
 				get_template_part( 'template-parts/content', get_post_type() );
 
-				the_post_navigation(
-					array(
-						'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'speedway' ) . '</span> <span class="nav-title">%title</span>',
-						'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'speedway' ) . '</span> <span class="nav-title">%title</span>',
-					)
-				);
+				// the_post_navigation(
+				// 	array(
+				// 		'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'speedway' ) . '</span> <span class="nav-title">%title</span>',
+				// 		'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'speedway' ) . '</span> <span class="nav-title">%title</span>',
+				// 	)
+				// );
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				// if ( comments_open() || get_comments_number() ) :
@@ -56,9 +56,46 @@ get_header();
 			<?php get_sidebar(); ?>
 		</div>
 	</div>
+	<div class="row latest-post">
+		<?php 
+		$args = array(
+			'numberposts' => 3,
+			'exclude' => [ get_the_ID() ]
+		);		   
+		$latest_posts = get_posts( $args );
+
+		if( $latest_posts ) {			
+			foreach( $latest_posts as $post ) :
+				$permalink = get_the_permalink( $post->ID );
+			?>
+			<div class="col-md-4">
+				<?php the_post_thumbnail( 'speedway_blog' ); ?>
+				<h1><a href="<?php echo $permalink; ?>"><?php echo get_the_title( $post->ID ); ?></a></h1>
+				<p>
+					<?php 
+					$string = strip_tags( get_the_excerpt( $post->ID ) );
+					if (strlen($string) > 100) {
+			
+						// truncate string
+						$stringCut = substr($string, 0, 100);
+						$endPoint = strrpos($stringCut, ' ');
+			
+						//if the string doesn't contain any space then it will cut without word basis.
+						$string = $endPoint? substr($stringCut, 0, $endPoint) : substr($stringCut, 0);
+						//$string .= '... <a href="/this/story">Read More</a>';
+					}
+					echo $string;
+					?>
+				</p>
+			</div>			
+			<?php
+			endforeach;
+		}		
+		?>		
+	</div>
 </div>
 
-<div class="bg"></div>
+
 <div class="container-fluid promo">	
 	<div class="container">
 		<div class="row">
