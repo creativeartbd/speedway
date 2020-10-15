@@ -9,7 +9,7 @@
 
 get_header();
 ?>
-<div class="container-fluid blog-page">
+<div class="container-fluid single-blog-page">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
