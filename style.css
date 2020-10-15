@@ -1193,7 +1193,7 @@ article .entry-content p {
 .promo {
 	background-image: url("https://spa0001.alanvo.com/wp-content/uploads/2020/10/sylvia-zhou-uHMtAkVUIjo-unsplash-1.png");
 	background-size: cover;
-	/* padding : 105px 0; */
+	padding : 105px 0 !important;
 }
 .promo h1 {
 	text-align: center;
