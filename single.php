@@ -58,6 +58,18 @@ get_header();
 	</div>
 </div>
 
+<div class="bg"></div>
+<div class="container-fluid promo">	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Looking for High-Quality Fuel?</h1>
+				<a href="#" class="btn btn-primary find-a-speedway">Find a Speedway</a> 
+			</div>
+		</div>
+	</div>
+</div>
+
 <?php
 
 get_footer();

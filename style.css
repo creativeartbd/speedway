@@ -1271,3 +1271,7 @@ article .entry-content p {
     background-color: #000;
     color: #fff;
 }
+
+.navigation.post-navigation {
+	padding : 25px;
+}
