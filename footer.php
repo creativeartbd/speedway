@@ -55,6 +55,10 @@
 				<div class="footer-social">
 					<ul>
 						<li><a href=""><img src="<?php echo get_template_directory_uri() . '/img/Facebook.png'; ?>"></a></li>
+						<li><a href=""><img src="<?php echo get_template_directory_uri() . '/img/Linkedin.png'; ?>"></a></li>
+						<li><a href=""><img src="<?php echo get_template_directory_uri() . '/img/Instagram.png'; ?>"></a></li>
+						<li><a href=""><img src="<?php echo get_template_directory_uri() . '/img/Twitter.png'; ?>"></a></li>
+						<li><a href=""><img src="<?php echo get_template_directory_uri() . '/img/Youtube.png'; ?>"></a></li>
 					</ul>
 				</div>
 			</div>
