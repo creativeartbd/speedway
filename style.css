@@ -106,6 +106,7 @@ html {
  */
 body {
 	margin: 0;
+	font-family: "aaux-next",sans-serif;
 }
 
 /**
@@ -432,7 +433,7 @@ textarea {
 	color: #404040;	
 	font-size: 16px;
 	line-height: 1.5;
-	font-family:"aaux-next";
+	font-family: "aaux-next",sans-serif;
 }
 
 h1,
