@@ -75,7 +75,10 @@ get_header();
 </div>
 <!-- Container end here -->
 
+
+
 <div class="container-fluid promo">
+	<div class="bg"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">

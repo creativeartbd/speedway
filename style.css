@@ -1206,10 +1206,15 @@ article .entry-content p {
 }
 /* Aritcle end here */
 
+.bg {
+	background-image: url("https://spa0001.alanvo.com/wp-content/uploads/2020/10/Group-27645.png");
+	background-size: cover;
+}
 .promo {
 	background-image: url("https://spa0001.alanvo.com/wp-content/uploads/2020/10/sylvia-zhou-uHMtAkVUIjo-unsplash-1.png");
 	background-size: cover;
 	padding : 105px 0 !important;
+	text-align: center;
 }
 .promo h1 {
 	text-align: center;
