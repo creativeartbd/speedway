@@ -1193,6 +1193,7 @@ article .entry-content p {
 .promo {
 	background-image: url("https://spa0001.alanvo.com/wp-content/uploads/2020/10/sylvia-zhou-uHMtAkVUIjo-unsplash-1.png");
 	background-size: cover;
+	/* padding : 105px 0; */
 }
 .promo h1 {
 	text-align: center;
@@ -1201,5 +1202,14 @@ article .entry-content p {
 	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);	
 	color : #fff;
 	text-transform: uppercase;
-	padding : 105px 0;
+}
+
+.find-a-speedway {
+    background-color: #fff;
+    border-radius: 0;
+    border: 0;
+    color: #000;
+    padding: 10px 70px;
+    text-align: center;
+	margin: 0 auto;
 }
