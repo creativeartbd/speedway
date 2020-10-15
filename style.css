@@ -1176,7 +1176,13 @@ article .entry-content p {
     background-size: cover;
 }
 .container-fluid.blog-page .title {
-	font-size: 36px;
-	line-height: 42px;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    padding: 15px;
+    margin: 187px 0 0 0;
 }
 /* Aritcle end here */
