@@ -1234,3 +1234,8 @@ article .entry-content p {
     text-align: center;
 	margin: 0 auto;
 } 
+
+.find-a-speedway:hover {
+    background-color: #000;
+    color: #fff;
+}
