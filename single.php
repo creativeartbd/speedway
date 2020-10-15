@@ -9,6 +9,16 @@
 
 get_header();
 ?>
+<div class="container-fluid blog-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="title"><?php echo get_the_title(); ?></h1>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container">
 	<div class="row">
 		<div class="col-md-9">
