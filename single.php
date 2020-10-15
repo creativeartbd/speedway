@@ -9,6 +9,7 @@
 
 get_header();
 ?>
+
 <div class="container-fluid single-blog-page">
 	<div class="container">
 		<div class="row">
