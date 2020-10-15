@@ -1092,3 +1092,28 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+
+/* Contact form style */
+
+.contact label {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contact .c-form {
+    border: 1px solid #979797 !important;
+    border-radius: 0;
+    height: 55px;
+    background-color: #f9f9f9;
+}
+
+.contact .c-form-textarea {
+    border: 1px solid #979797 !important;
+    border-radius: 0;
+    height: 55px;
+    background-color: #f9f9f9;
+    height: 240px;
+}
+
+/* Contact form style end here */
