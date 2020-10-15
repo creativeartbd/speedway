@@ -16,9 +16,11 @@ get_header();
 ?>
 <!--  Container -->
 <div class="container-fluid blog-page">
-	<div class="row">
-		<div class="col-md-12">
-			<h1 class="title">Speedway News</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="title">Speedway News</h1>
+			</div>
 		</div>
 	</div>
 </div>
