@@ -67,6 +67,4 @@
 	</div>
 </nav>	
 
-<!--  Container -->
-<div class="container">
 
