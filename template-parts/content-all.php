@@ -46,7 +46,18 @@
 
 	<div class="entry-content">
 		<?php
-		echo get_the_excerpt();
+        $string = strip_tags( get_the_excerpt() );
+		if (strlen($string) > 100) {
+
+			// truncate string
+			$stringCut = substr($string, 0, 100);
+			$endPoint = strrpos($stringCut, ' ');
+
+			//if the string doesn't contain any space then it will cut without word basis.
+			$string = $endPoint? substr($stringCut, 0, $endPoint) : substr($stringCut, 0);
+			//$string .= '... <a href="/this/story">Read More</a>';
+		}
+		echo $string;
 
 		wp_link_pages(
 			array(
