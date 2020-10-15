@@ -750,7 +750,7 @@ textarea {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	/* margin: 1.5em 0 0; */
 }
 
 .page-links {
@@ -886,6 +886,10 @@ textarea {
 
 .nav>li>a { 
     padding: 10px 17px;
+}
+
+.navbar {
+	margin-bottom: 0;
 }
 .navbar-inverse {
     background-color: #000;
