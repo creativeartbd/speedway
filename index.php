@@ -15,8 +15,8 @@
 get_header();
 ?>
 <div class="row">
-	<div class="col-md-9">
-		<main id="primary" class="site-main">
+	<div class="col-md-12">
+		<main id="primary" class="site-main speedway-blog">
 			<?php
 			if ( have_posts() ) :
 				if ( is_home() && ! is_front_page() ) :
@@ -27,6 +27,9 @@ get_header();
 					<?php
 				endif;
 				/* Start the Loop */
+				?>
+				<div class="row">
+				<?php
 				while ( have_posts() ) :
 					the_post();
 					/*
@@ -34,18 +37,26 @@ get_header();
 					* If you want to override this in a child theme, then include a file
 					* called content-___.php (where ___ is the Post Type name) and that will be used instead.
 					*/
-					get_template_part( 'template-parts/content', get_post_type() );
+					?>					
+					<div class="col-md-6">	
+						<div class="sppedway-article">
+							<?php
+							get_template_part( 'template-parts/content', get_post_type() );
+							?>
+						</div>								
+					</div>
+					<?php
 				endwhile;
+				?>
+				</div>
+				<?php
 				the_posts_navigation();
 			else :
 				get_template_part( 'template-parts/content', 'none' );
 			endif;
 			?>
 		</main><!-- #main -->
-	</div> 
-	<div class="col-md-3">
-		<?php get_sidebar(); ?>
-	</div>
+	</div> 	
 	<!-- col-md-12 end here -->
 </div>
 <!-- row end here -->

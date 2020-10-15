@@ -13,6 +13,8 @@ if ( ! defined( '_S_VERSION' ) ) {
 }
 
 if ( ! function_exists( 'speedway_setup' ) ) :
+
+	
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -21,6 +23,9 @@ if ( ! function_exists( 'speedway_setup' ) ) :
 	 * as indicating support for post thumbnails.
 	 */
 	function speedway_setup() {
+
+		add_image_size( 'speedway_blog', 514, 342, true );
+		
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
