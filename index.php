@@ -41,7 +41,7 @@ get_header();
 					<div class="col-md-6">	
 						<div class="sppedway-article">
 							<?php
-							get_template_part( 'template-parts/content', get_post_type() );
+							get_template_part( 'template-parts/content', 'all'() );
 							?>
 						</div>								
 					</div>
