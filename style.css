@@ -1001,40 +1001,9 @@ a.custom-logo-link {
 /* Header style end her */
 
 /* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
-.footer {
-	background-image: url("img/footer-bg.png");
-	background-repeat: repeat-x;
-	padding-top : 60px;
-	padding-bottom: 90px;		
+.footer-menu ul li {
+    margin-bottom: 15px;
 }
-.footer-bottom {
-    background-color: #000;
-    min-height: 73px;
-    display: flex;
-    align-items: center;
-}
-.footer .widget-title {
-	font-size : 16px; 
-	line-height: 18.75px;
-	margin-bottom: 31px;
-	font-weight: 600;
-}
-
-.footer ul li {
-    margin-bottom: 10px;
-}
-.footer ul li a, p {
-	font-size : 14px; 
-	line-height: 16.41px;
-	color : #000;
-}
-
-.footer-social ul li {
-	display: inline-block;
-	margin-right : 14px;
-}
-
-
 
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
