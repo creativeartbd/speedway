@@ -922,6 +922,10 @@ textarea {
 --------------------------------------------- */
 
 /* Header style */
+a.custom-logo-link {
+    margin-top: 2px;
+}
+
 .find {
 	margin-left: 65px;;
 }
