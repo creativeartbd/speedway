@@ -1019,6 +1019,22 @@ a.custom-logo-link {
 # Utilities
 --------------------------------------------------------------*/
 
+::-moz-placeholder {
+	font-size : 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.502622);
+} /* Firefox 19+ */
+:-moz-placeholder {
+	font-size : 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.502622);
+}  /* Firefox 18- */
+:-ms-input-placeholder {
+	font-size : 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.502622);
+} /* IE */
+
 .form-control {
     border: 0 !important;
     box-shadow: none;
