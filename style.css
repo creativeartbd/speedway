@@ -930,17 +930,6 @@ a.custom-logo-link {
     margin-top: 2px;
 }
 
-.find {
-	margin-left: 65px;;
-}
-.find a:before{
-	content: url("img/find.png");
-	position:relative; /*or absolute*/
-	z-index:100000; /*a number that's more than the modal box*/
-	left:-7px;
-	top:1px;
-}
-
 .nav>li>a { 
     padding: 10px 17px;
 }
