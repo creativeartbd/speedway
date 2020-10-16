@@ -1024,6 +1024,10 @@ a.custom-logo-link {
 # Utilities
 --------------------------------------------------------------*/
 
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  	margin-top: 35px;
+}
+
 ::-moz-placeholder {
 	font-size : 14px;
 	line-height: 16px;
