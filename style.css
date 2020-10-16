@@ -1002,7 +1002,7 @@ a.custom-logo-link {
 
 /* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
 .footer-menu ul li {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .footer-menu ul li a {
