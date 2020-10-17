@@ -14,7 +14,7 @@
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			
 			<div class="row">
-				<div class="col-sm-12 col-md-6">
+				<div class="col-xs-12 col-sm-6 col-md-6">
 					<div class="post-category">
 						<?php 
 						$speed_post_category = get_the_category(); 			
@@ -26,8 +26,8 @@
 						?>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6">
-					<div class="post-date">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="post-date text-right">
 						<?php echo get_the_date(); ?>
 					</div>
 				</div>
