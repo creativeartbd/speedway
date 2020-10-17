@@ -1148,25 +1148,16 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 	min-height: 570px;;
 	margin-bottom: 30px;
 }
-.post-category-date-wrapper {
-	display: flex;
-	align-items: center;
-}
 
-article .post-category-date-wrapper .post-category {
-	width : 50%;
-}
-article .post-category-date-wrapper .post-category a, .post-date {
+article .post-category a, .post-date {
 	font-size: 18px;
 	line-height: 38px;
 	color : #616161;
 	margin-right: 15px;	
 	text-transform: uppercase;
 }
-article .post-category-date-wrapper .post-date {
-	margin-right: 0;
-	width : 50%;
-	text-align: right;;
+article .post-date {
+	margin-right: 0;	
 }
 article .entry-header .entry-title a {
 	font-size: 24px;
@@ -1224,6 +1215,7 @@ article .entry-content p {
 .bg {
 	background-image: url("https://spa0001.alanvo.com/wp-content/uploads/2020/10/Group-27645.png");
 	background-size: cover;
+	background-repeat: repeat-x;
 }
 .promo {
 	background-image: url("https://spa0001.alanvo.com/wp-content/uploads/2020/10/sylvia-zhou-uHMtAkVUIjo-unsplash-1.png");
@@ -1250,6 +1242,7 @@ article .entry-content p {
 	margin: 0 auto;
 } 
 
+
 .find-a-speedway:hover {
     background-color: #000;
     color: #fff;
@@ -1274,4 +1267,24 @@ article .entry-content p {
 }
 .latest-post img:nth-child(2) {
 	box-shadow: 2px 2px 2px #000;
+}
+
+.misha_loadmore{
+	font-size: 16px;
+	line-height: 19px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-color: #000;
+	display: inline-block;
+	padding : 10px 100px;
+	margin-bottom: 87px;
+	margin-top: 76px;
+}
+.misha_loadmore:hover{
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
 }
