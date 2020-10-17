@@ -63,7 +63,7 @@ get_header();
 				</main><!-- #main -->
 			</div>
 			
-			<div class="col-xs-6 col-xs-offset-4">
+			<div class="col-xs-12 text-center">
 				<?php
 				global $wp_query; // you can remove this line if everything works for you
 				
