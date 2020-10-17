@@ -1210,6 +1210,10 @@ article .entry-content p {
 .article-pub-date {
     padding: 0 25px;
 }
+
+.single-article {
+	padding : 30px;
+}
 /* Aritcle end here */
 
 .bg {

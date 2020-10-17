@@ -28,7 +28,7 @@ get_header();
 			<div class="article-pub-date">
 				<p>Published <?php echo get_the_date(); ?></p>
 			</div>
-			<main id="primary" class="site-main">
+			<main id="primary" class="site-main single-article">
 
 			<?php
 			while ( have_posts() ) :
@@ -70,7 +70,7 @@ get_header();
 			?>
 			<div class="col-md-4">
 				<?php the_post_thumbnail( 'speedway_blog' ); ?>
-				<h1><a href="<?php echo $permalink; ?>"><?php echo get_the_title( $post->ID ); ?></a></h1>
+				<h1><a href="<?php echo $permalink; ?>"><?php echo wp_trim_words( get_the_title( $post->ID ), 3 ); ?></a></h1>
 				<p>
 					<?php 
 					$string = strip_tags( get_the_excerpt( $post->ID ) );
