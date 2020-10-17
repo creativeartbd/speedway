@@ -1146,6 +1146,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 	padding : 30px;
 	min-height: 570px;;
+	margin-bottom: 30px;
 }
 .post-category-date-wrapper {
 	display: flex;
