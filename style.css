@@ -290,6 +290,19 @@ button:-moz-focusring,
 	outline: 1px dotted ButtonText;
 }
 
+.shadow {
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.098066);
+	/* padding : 21px; */
+}
+.latest-post {
+	margin-bottom: 100px;
+}
+.angle {
+	
+}
+.p3 {
+	padding : 30px;
+}
 /**
  * Correct the padding in Firefox.
  */
@@ -1012,7 +1025,15 @@ a.custom-logo-link {
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
-
+.angle {
+    width: auto !important;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   	margin-top: 35px;
 }
@@ -1269,9 +1290,7 @@ article .entry-content p {
 	line-height: 24px;
 	color : #000;
 }
-.latest-post img:nth-child(2) {
-	box-shadow: 2px 2px 2px #000;
-}
+
 
 .misha_loadmore{
 	font-size: 16px;

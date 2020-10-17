@@ -64,11 +64,16 @@ get_header();
 		);		   
 		$latest_posts = get_posts( $args );
 
-		if( $latest_posts ) {			
+		if( $latest_posts ) {
+			$count = 1;			
 			foreach( $latest_posts as $post ) :
 				$permalink = get_the_permalink( $post->ID );
 			?>
-			<div class="col-md-4">
+			<div class="col-md-4 p3 <?php echo $count == 2 ? 'shadow' : ''; ?>">
+				<?php if( $count == 2 ) : ?>
+					<img src="https://spa0001.alanvo.com/wp-content/uploads/2020/10/angle.png" alt="" class="angle">
+				<?php endif; ?>
+				
 				<?php the_post_thumbnail( 'speedway_blog' ); ?>
 				<h1><a href="<?php echo $permalink; ?>"><?php echo wp_trim_words( get_the_title( $post->ID ), 3 ); ?></a></h1>
 				<p>
@@ -89,6 +94,7 @@ get_header();
 				</p>
 			</div>			
 			<?php
+			$count++;
 			endforeach;
 		}		
 		?>		
