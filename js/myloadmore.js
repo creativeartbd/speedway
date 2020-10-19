@@ -3,7 +3,7 @@ jQuery(function($){ // use jQuery code inside this to avoid "$ is not defined" e
 	// var gmapid = 
 	// document.getElementById("bdt-advanced-gmap-3401a49address").placeholder = "Postcode / Suburb";
 
-	$('.misha_loadmore').click(function(){
+	$('#misha_loadmore').click(function(){
  
 		var button = $(this),
 		    data = {
