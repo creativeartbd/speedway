@@ -1025,6 +1025,10 @@ a.custom-logo-link {
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
+.send:Hover {
+    background-color: #fff;
+    color: #000;
+}
 .angle {
     width: auto !important;
     position: absolute;
@@ -1311,3 +1315,4 @@ article .entry-content p {
 	color: #fff;
 	cursor: pointer;
 } */
+
